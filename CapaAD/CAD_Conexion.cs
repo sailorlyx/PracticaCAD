@@ -5,7 +5,7 @@ namespace CapaAD
 {
     public class CAD_Conexion
     {
-        private SqlConnection Conexion = new SqlConnectionConnection("Server=LAPTOP-GGTKFVHF\\Administrador;Database=PracticaSailor;Integrated Security=true");
+        private SqlConnection Conexion = new SqlConnectionConnection("Server=LAPTOP-GGTKFVHF\\SQLEXPRESS;Database=PracticaSailor;Integrated Security=true");
         
         public SqlConnection AbrirConexion()
         {
